@@ -37,6 +37,7 @@ function mouseLeaveTopBar(event) {
 window.onload = function(){
     console.log("load")
     $(window).scroll(function() {console.log("scroll") 
+                                 console.log($(document).scrollTop()))
 //    console.log(document.body.scrollTop)//document.documentElement.scrollTop
         if($(document).scrollTop()) >= 100 && leaving == false){
             leaving = true
