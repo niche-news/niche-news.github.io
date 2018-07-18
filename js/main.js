@@ -66,7 +66,7 @@ function mouseLeaveTopBar(event) {
 //
 window.onload = function(){
     console.log("load")
-    window.onscroll = function() {console.log("scroll") regTopBar()};
+    $(window).scroll(function() {console.log("scroll") regTopBar()});
     document.getElementById("topbar").onmouseenter = function() {mouseEnteredTopBar()};
     document.getElementById("topbar").onmouseleave = function() {mouseLeaveTopBar()};
 }
