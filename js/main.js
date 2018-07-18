@@ -35,13 +35,10 @@ function mouseLeaveTopBar(event) {
 
 //
 window.onload = function(){
-    console.log("load")
-    $(window).scroll(function() {console.log("scroll") 
-                                 console.log($(document).scrollTop())
+    $(window).scroll(function() {
 //    console.log(document.body.scrollTop)//document.documentElement.scrollTop
         if($(document).scrollTop() >= 100 && leaving == false){
             leaving = true
-            console.log("leave")
             let pos = {x: 160, y: 0}
             let tween = new TWEEN.Tween(pos)
                 .to({x: 90, y: 0}, 400)
@@ -61,10 +58,8 @@ window.onload = function(){
                     .onUpdate(function(){
                         //$("#topbar").css('transform', 'translateY(' + pos.x + 'px)');
                         $("#topbar").css('height', (pos.x + 'px'));
-                        console.log(pos.x)
                         $("#mainlogo").css('height', (Math.min((pos.x - 20),100) + 'px'))
                     }).start()
-            console.log("enter")
         }
     });
     document.getElementById("topbar").onmouseenter = function() {mouseEnteredTopBar()};
