@@ -33,7 +33,7 @@
     }
   }
 
-  var searchTerm = getQueryVariable('query');
+  var searchTerm = getQueryVariable('search');
 
   if (searchTerm) {
     document.getElementById('search-box').setAttribute("value", searchTerm);
