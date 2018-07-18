@@ -38,7 +38,7 @@ window.onload = function(){
     console.log("load")
     $(window).scroll(function() {console.log("scroll") 
 //    console.log(document.body.scrollTop)//document.documentElement.scrollTop
-        if(document.body.scrollTop >= 100 && leaving == false){
+        if($(document).scrollTop()) >= 100 && leaving == false){
             leaving = true
             console.log("leave")
             let pos = {x: 160, y: 0}
@@ -51,7 +51,7 @@ window.onload = function(){
                     $("#mainlogo").css('height', ((Math.max(70, pos.x - 60) + 'px')))
                 }).start()
         }
-        else if(document.body.scrollTop < 100 && leaving == true){
+        else if($(document).scrollTop()) < 100 && leaving == true){
             leaving = false
             let pos = {x: 90, y: 0}
             let tween = new TWEEN.Tween(pos)
