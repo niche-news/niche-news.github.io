@@ -36,7 +36,7 @@ function mouseLeaveTopBar(event) {
 //
 window.onload = function(){
     console.log("load")
-    $(window).scroll(function() {console.log("scroll") regTopBar()
+    $(window).scroll(function() {console.log("scroll") 
 //    console.log(document.body.scrollTop)//document.documentElement.scrollTop
         if(document.body.scrollTop >= 100 && leaving == false){
             leaving = true
