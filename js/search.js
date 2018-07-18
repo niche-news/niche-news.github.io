@@ -1,6 +1,3 @@
-//if you're reading this, 
-//i'm sorry.
-
 (function() {
   function displaySearchResults(results, store) {
     var searchResults = document.getElementById('search-results');
@@ -33,7 +30,7 @@
     }
   }
 
-  var searchTerm = getQueryVariable('search');
+  var searchTerm = getQueryVariable('query');
 
   if (searchTerm) {
     document.getElementById('search-box').setAttribute("value", searchTerm);
