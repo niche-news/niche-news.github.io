@@ -1,18 +1,18 @@
 (function() {
   function displaySearchResults(results, store) {
-    var searchResults = document.getElementById('search-results');
+    var searchResults = document.getElementById('centerdiv');
 
     if (results.length) { // Are there any results?
       var appendString = '';
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
-        appendString += ('<li>' + '<div id="resultscontainer" style="width:100%; height:125px; float:left;"> <div style="width:175px;height:100px; margin-top: 12.5;float:left;postion: static;z-index:  -1; background: url(graphics/download.png) center center no-repeat; margin-left:10px;"> </div> <div style="float:left; width:650px; margin-left: 10px; margin-top:17px;font-family: inherit; line-height: 20%; font-size: 14px; color: #000000; font-style: normal; z-index: 3; font-variant: normal; font-weight: 700;"> <li><a href="' + item.url + '">' + item.title + '</a>  </div> <div style="float:left; width:650px; margin-left: 10px; margin-top:5px;font-family: inherit; line-height: 140%; font-size: 11px; color: #000000; font-style: normal; z-index: 3; font-variant: normal; font-weight: 500;"> wwwwiwwui </div> <div style="float:left; width:650px; margin-left: 10px;font-family: inherit;  line-height: 120%; font-size: 12px; color: #58595b; font-style: normal; z-index: 3; font-variant: normal; font-weight: 500;"> ' + item.content.substring(0, 150) + '</div> <div style="height: 1px;float:left;margin-top: 11.5px;width:850px;background-color: darkgray;float:left;z-index:  2;> </div> </div>');
+        appendString += ('<div id="resultscontainer" style="width:100%; height:125px; float:left;"> <div style="width:175px;height:100px; margin-top: 12.5;float:left;postion: static;z-index:  -1; background: url(graphics/download.png) center center no-repeat; margin-left:10px;"> </div> <div style="float:left; width:650px; margin-left: 10px; margin-top:17px;font-family: inherit; line-height: 20%; font-size: 14px; color: #000000; font-style: normal; z-index: 3; font-variant: normal; font-weight: 700;"> <li><a href="' + item.url + '">' + item.title + '</a>  </div> <div style="float:left; width:650px; margin-left: 10px; margin-top:5px;font-family: inherit; line-height: 140%; font-size: 11px; color: #000000; font-style: normal; z-index: 3; font-variant: normal; font-weight: 500;"> wwwwiwwui </div> <div style="float:left; width:650px; margin-left: 10px;font-family: inherit;  line-height: 120%; font-size: 12px; color: #58595b; font-style: normal; z-index: 3; font-variant: normal; font-weight: 500;"> ' + item.content.substring(0, 150) + '</div> <div style="height: 1px;float:left;margin-top: 11.5px;width:850px;background-color: darkgray;float:left;z-index:  2;> </div> </div>');
       }
 
       searchResults.innerHTML = appendString;
     } else {
-      searchResults.innerHTML = '<li>No results found</li>';
+      searchResults.innerHTML = 'No Results found';
     }
   }
 
