@@ -1,0 +1,201 @@
+---
+layout: default
+---
+
+<html>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/16.7.0/Tween.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/js/main.js"></script>
+
+    <div id="topbar"> 
+        <div>
+            <img id="mainlogo" src="/graphics/finallogo.svg">
+            <img id="textlogo" src="/graphics/niche-news.svg">
+            <div class="search-container">
+                <form style="margin-top: 45px;float:  right;height: 50%;margin-right: 10px;">
+                    <input autocomplete="off" id = "searchbar" type="text" placeholder="" name="search" style="/* margin-top: 10px; */background-color: aliceblue;outline: none;border: none;height: 22.5px; padding: .5rem .75rem;width:0px;">
+                    <button style="height: 21px;width: 23px;border:none; background-color:white;" type="submit"><i class="fa fa-search"></i></button>
+
+                </form>
+          </div>
+            &nbsp;
+            &nbsp;
+        </div>
+        <div id="bottomline"></div>
+    </div>
+    <div id="centerdiv" style="top: 165px;">
+        <div style="width:200px; height: 1032px; float:left;"id="leftbar">
+            <div style="width:100%; height: 200px; float:left;">
+                <div style=" background: url(/graphics/blank-pfp.png) center center no-repeat; height: 60%; width:60%; margin-left: 20%; margin-top: 20%;clip-path: circle(40%);">
+                </div>
+                <div style="font-size: 13px; color: #58595B;float:left; width:60%; margin-left: 20%; text-align: center; ">Written By: </div>
+                <div style="font-size: 24px; color: #231f20;float:left; width:80%; margin-left: 10%; text-align: center; ">Kevin Wang</div>
+            </div>
+            <div id="otherarticles" style="width:200px; height:700px; float:left; margin-top:20px"> 
+                <div style="width: 200px; float:left; height: 140px;">
+                    <div style="width: 180px; margin-left: 10px; height: 100px;background: url(/graphics/download.png) center center no-repeat;">
+                        
+                    </div>
+                    <div style="width: 180px; margin-left: 10px; font-size: 15px; font-weight: 700; margin-top: 3px;">
+                        Loraine Ipsum
+                    </div>
+                    <div style="width: 180px; height: 15px;"></div>
+                </div>
+                <div style="width: 200px; float:left; height: 140px;">
+                    <div style="width: 180px; margin-left: 10px; height: 100px;background: url(/graphics/download.png) center center no-repeat;">
+                        
+                    </div>
+                    <div style="width: 180px; margin-left: 10px; font-size: 15px; font-weight: 700; margin-top: 3px;">
+                        Loraine Ipsum
+                    </div>
+                    <div style="width: 180px; height: 15px;"></div>
+                </div>
+                <div style="width: 200px; float:left; height: 140px;">
+                    <div style="width: 180px; margin-left: 10px; height: 100px;background: url(/graphics/download.png) center center no-repeat;">
+                        
+                    </div>
+                    <div style="width: 180px; margin-left: 10px; font-size: 15px; font-weight: 700; margin-top: 3px;">
+                        Loraine Ipsum
+                    </div>
+                    <div style="width: 180px; height: 15px;"></div>
+                </div>
+                    <div style="width: 200px; float:left; height: 140px;">
+                    <div style="width: 180px; margin-left: 10px; height: 100px;background: url(/graphics/download.png) center center no-repeat;">
+                        
+                    </div>
+                    <div style="width: 180px; margin-left: 10px; font-size: 15px; font-weight: 700; margin-top: 3px;">
+                        Loraine Ipsum
+                    </div>
+                    <div style="width: 180px; height: 15px;"></div>
+                </div>
+            
+            
+            </div>
+        </div>     
+        <div id="rightside" style="width:700px; height: 1032px; float:left;">
+            <div id="title@" style="width:700px; float: left;  font-size: 42;color: #231F20;">
+                The Criminal Injustice System: The Problem with Plea Bargaining
+            </div>
+            <div id="sub@" style="width:685px; float: left;  font-size: 20;color: #58595B;  line-height : 30.2px; margin-left: 15px; ">
+                {{site.date}}
+            </div>
+            <div style="width:685px; float: left;  color: #383838;  line-height : 20.2px; margin-left: 15px; font-size: 14px;font-family: Georgia, Times, 'Times New Roman', serif;">
+                {{content}}
+            </div>
+            <div style="width:100%; height: 50px; font-size: 14px;font-family: Georgia, Times, 'Times New Roman', serif;">
+                <div style="width:50%; text-align: left; float:left;">
+                {{site.author}}
+                </div>
+                <div style="width:50%; text-align: right; float:right">
+                {{site.date}}
+                </div>
+            </div>
+        </div>
+        <div id="sixthrow" style="float:left; margin-top: 175px">
+            <div style="width:100%; height: 40px; position: absolute; text-align: center; font-size: 40px;font-family: Georgia, Times, 'Times New Roman', serif;">
+                The July Issue
+            </div>
+            <div style="position: absolute; transform: translateY(50px); height: 95%; width:100%;">
+                <div style="width:100%; height:260px;">
+                    <div style="width:33.33%; height: 100%; float:left;">
+                        <div style="width: 100%; height: 155px;">
+                            <div style="width:95%; height: 95%; margin-left: 2.5%; margin-top: 2.5%; background: url(/graphics/download.png) center center no-repeat;">
+                            </div>
+                        </div>
+                        <div style="font-family: Georgia, Times, 'Times New Roman', serif; line-height: 120%; font-size: 13px; color: #000000; font-style: normal; z-index: 3; font-variant: normal; font-weight: 700; width: 95%; margin-left: 2.5%;">
+                            Lorem ipsum dolor sit amet, consectetur adipscing elit. Nunc porta turpis.
+                        </div>
+                        <div style="width:100%; height: 5px;"></div>
+                        <div style="font-family: inherit;margin-left: 2.5%;color: #58595b;font-size: 12px;">
+                            eeee
+                        </div>
+                    </div>
+                    <div style="width:33.33%; height: 100%; float:left;">
+                        <div style="width: 100%; height: 155px;">
+                            <div style="width:95%; height: 95%; margin-left: 2.5%; margin-top: 2.5%; background: url(/graphics/download.png) center center no-repeat;">
+                            </div>
+                        </div>
+                        <div style="font-family: Georgia, Times, 'Times New Roman', serif; line-height: 120%; font-size: 13px; color: #000000; font-style: normal; z-index: 3; font-variant: normal; font-weight: 700; width: 95%; margin-left: 2.5%;">
+                            Lorem ipsum dolor sit amet, consectetur adipscing elit. Nunc porta turpis.
+                        </div>
+                        <div style="width:100%; height: 5px;"></div>
+                        <div style="font-family: inherit;margin-left: 2.5%;color: #58595b;font-size: 12px;">
+                            eeee
+                        </div>
+                    </div>
+                    <div style="width:33.33%; height: 100%; float:left;">
+                        <div style="width: 100%; height: 155px;">
+                            <div style="width:95%; height: 95%; margin-left: 2.5%; margin-top: 2.5%; background: url(graphics/download.png) center center no-repeat;">
+                            </div>
+                        </div>
+                        <div style="font-family: Georgia, Times, 'Times New Roman', serif; line-height: 120%; font-size: 13px; color: #000000; font-style: normal; z-index: 3; font-variant: normal; font-weight: 700; width: 95%; margin-left: 2.5%;">
+                            Lorem ipsum dolor sit amet, consectetur adipscing elit. Nunc porta turpis.
+                        </div>
+                        <div style="width:100%; height: 5px;"></div>
+                        <div style="font-family: inherit;margin-left: 2.5%;color: #58595b;font-size: 12px;">
+                            eeee
+                        </div>
+                    </div>
+                </div>
+                <div style="width:100%; height:260px;">
+                    <div style="width:25%; height: 100%; float:left;">
+                        <div style="width: 100%; height: 155px;">
+                            <div style="width:95%; height: 95%; margin-left: 2.5%; margin-top: 2.5%; background: url(graphics/download.png) center center no-repeat;">
+                            </div>
+                        </div>
+                        <div style="font-family: Georgia, Times, 'Times New Roman', serif; line-height: 120%; font-size: 13px; color: #000000; font-style: normal; z-index: 3; font-variant: normal; font-weight: 700; width: 95%; margin-left: 2.5%;">
+                            Lorem ipsum dolor sit amet, consectetur adipscing elit. Nunc porta turpis.
+                        </div>
+                        <div style="width:100%; height: 5px;"></div>
+                        <div style="font-family: inherit;margin-left: 2.5%;color: #58595b;font-size: 12px;">
+                            eeee
+                        </div>
+                    </div>
+                    <div style="width:25%; height: 100%; float:left;">
+                        <div style="width: 100%; height: 155px;">
+                            <div style="width:95%; height: 95%; margin-left: 2.5%; margin-top: 2.5%; background: url(graphics/download.png) center center no-repeat;">
+                            </div>
+                        </div>
+                        <div style="font-family: Georgia, Times, 'Times New Roman', serif; line-height: 120%; font-size: 13px; color: #000000; font-style: normal; z-index: 3; font-variant: normal; font-weight: 700; width: 95%; margin-left: 2.5%;">
+                            Lorem ipsum dolor sit amet, consectetur adipscing elit. Nunc porta turpis.
+                        </div>
+                        <div style="width:100%; height: 5px;"></div>
+                        <div style="font-family: inherit;margin-left: 2.5%;color: #58595b;font-size: 12px;">
+                            eeee
+                        </div>
+                    </div>
+                    <div style="width:25%; height: 100%; float:left;">
+                        <div style="width: 100%; height: 155px;">
+                            <div style="width:95%; height: 95%; margin-left: 2.5%; margin-top: 2.5%; background: url(graphics/download.png) center center no-repeat;">
+                            </div>
+                        </div>
+                        <div style="font-family: Georgia, Times, 'Times New Roman', serif; line-height: 120%; font-size: 13px; color: #000000; font-style: normal; z-index: 3; font-variant: normal; font-weight: 700; width: 95%; margin-left: 2.5%;">
+                            Lorem ipsum dolor sit amet, consectetur adipscing elit. Nunc porta turpis.
+                        </div>
+                        <div style="width:100%; height: 5px;"></div>
+                        <div style="font-family: inherit;margin-left: 2.5%;color: #58595b;font-size: 12px;">
+                            eeee
+                        </div>
+                    </div>
+                    <div style="width:25%; height: 100%; float:left;">
+                        <div style="width: 100%; height: 155px;">
+                            <div style="width:95%; height: 95%; margin-left: 2.5%; margin-top: 2.5%; background: url(/graphics/download.png) center center no-repeat;">
+                            </div>
+                        </div>
+                        <div style="font-family: Georgia, Times, 'Times New Roman', serif; line-height: 120%; font-size: 13px; color: #000000; font-style: normal; z-index: 3; font-variant: normal; font-weight: 700; width: 95%; margin-left: 2.5%;">
+                            Lorem ipsum dolor sit amet, consectetur adipscing elit. Nunc porta turpis.
+                        </div>
+                        <div style="width:100%; height: 5px;"></div>
+                        <div style="font-family: inherit;margin-left: 2.5%;color: #58595b;font-size: 12px;">
+                            eeee
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</html>
