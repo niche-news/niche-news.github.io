@@ -2,6 +2,7 @@
 layout: article
 title:  "The Truth on Electric Car"
 date: 2018-06-04
+dateText: "2018/06/04"
 aID: 1
 author: "Charlie Davis"
 
