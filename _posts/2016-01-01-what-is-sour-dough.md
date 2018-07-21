@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title:  "This is just a test"
 date:   2014-11-01 20:07:22
 author: "Kevin Wang"
