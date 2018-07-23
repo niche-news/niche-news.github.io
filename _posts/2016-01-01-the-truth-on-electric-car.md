@@ -20,5 +20,3 @@ The same logic can be applied to electric cars. When technology advances very qu
 Depreciation has also been a major problem with electric cars. Take the 2012 Nissan Leaf, an electric car that would have sold for $30,000 new. That car would be worth $8,500 today. A similarly priced same year Nissan Altima that is gas powered would be worth $13,000 today. The difference is huge.
 
 Ultimately, electric cars today are a shadow of the greatness they promise to bring tomorrow. Yes, in order to show support for electric cars people do have to purchase or lease them, but for your pocketbooks sake I would recommend leasing. 
-
-Source / Read more [Wikipedia](https://en.wikipedia.org/wiki/Sourdough)
