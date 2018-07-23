@@ -4,7 +4,7 @@ title:  "The Truth on Electric Cars"
 date: 2018-06-04 
 dateDisp: "2018-06-04"
 connectedArticles: 
-    - 1
+    - 2
     - 2
     - 3
     - 4
