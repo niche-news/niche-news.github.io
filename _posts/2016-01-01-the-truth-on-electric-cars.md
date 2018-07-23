@@ -3,6 +3,7 @@ layout: article
 title:  "The Truth on Electric Cars" 
 date: 2018-06-04 
 dateDisp: "2018-06-04"
+connectedArticles:{1,2,3,4,5}
 aID: 1 
 author: "Charlie Davis" 
 ---
