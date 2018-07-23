@@ -19,7 +19,8 @@ layout: default
                         
                     </div>
                     <div style="width: 180px; margin-left: 10px; font-size: 15px; font-weight: 700; margin-top: 3px;">
-                        {{ site.data.articles.articles[page.firstArticle].subTitle }}
+                        {% assign author = page.connectedArticles[1] %}
+                        {{ site.data.articles.articles[author].subTitle }}
                     </div>
                     <div style="width: 180px; height: 15px;"></div>
                 </div>
@@ -28,7 +29,6 @@ layout: default
                         
                     </div>
                     <div style="width: 180px; margin-left: 10px; font-size: 15px; font-weight: 700; margin-top: 3px;">
-                        {% assign author = page.connectedArticles[1] %}
 
                         {{ page.connectedArticles[1] }}
                     </div>
