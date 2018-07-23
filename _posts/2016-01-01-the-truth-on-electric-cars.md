@@ -12,7 +12,7 @@ fifthArticle: '5'
 aID: 1 
 author: "Charlie Davis" 
 ---
-
+![My helpful screenshot]({{ "https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/34536815_1793353517375133_8883663535607906304_n.jpg?_nc_cat=0&oh=3ea60fae6e8a6a4c5062204c8d38dec8&oe=5BE2E557" | absolute_url }})
 
 Recently, for a variety of reasons ranging from environmental concerns to practicality electric cars have occupied a sort of niche in car sales. The range of cars is huge, ranging from luxury electric cars such as those made by Fisker to electric 16 wheelers set to be made by Tesla. For many, electric cars quite simply seem to be the cars of the future in an age where gas consumption and dirty emissions are increasingly feared. 
 
