@@ -1,13 +1,11 @@
 ---
-layout: article
-title:  "The Truth on Electric Car"
-DTitle: "The Truth on Electric Car" 
-date: 2018-06-04
-dateText: "2018/06/04"
-aID: 1
-author: "Charlie Davis"
-
+layout: article 
+title:  "The Truth on Electric Car" 
+date: 2018-06-04 
+aID: 1 
+author: "Charlie Davis" 
 ---
+
 Recently, for a variety of reasons ranging from environmental concerns to practicality electric cars have occupied a sort of niche in car sales. The range of cars is huge, ranging from luxury electric cars such as those made by Fisker to electric 16 wheelers set to be made by Tesla. For many, electric cars quite simply seem to be the cars of the future in an age where gas consumption and dirty emissions are increasingly feared. 
 
 Now no car is a small purchase, but electric cars are on balance even larger investments, with some Tesla models selling for upwards of 100 thousand dollars. The issue them becomes affordability of electric cars. 
