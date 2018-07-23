@@ -2,4 +2,4 @@
 ---
 //i'm sorry for this code
 
-    console.log(page.title)
+    console.log(this.field('title'))
