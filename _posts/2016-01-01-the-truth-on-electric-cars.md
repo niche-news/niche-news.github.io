@@ -2,6 +2,7 @@
 layout: article 
 title:  "The Truth on Electric Cars" 
 date: 2018-06-04 
+month: July
 dateDisp: "2018-06-04"
 firstArticle: '1'
 secondArticle: '2'
