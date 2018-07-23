@@ -1,2 +1,2 @@
 //i'm sorry for this code
-console.log(window.store)
+console.log($('#getmonth').innerHTML)
