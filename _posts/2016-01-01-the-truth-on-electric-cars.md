@@ -11,6 +11,7 @@ thirdArticle: '3'
 fourthArticle: '4'
 fifthArticle: '5'
 aID: '1'
+link: 'https://niche-news.github.io/2018/06/04/the-truth-on-electric-cars.html'
 author: 'Charlie Davis'
 ---
 
