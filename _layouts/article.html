@@ -22,8 +22,8 @@ layout: default
                     {% if post.aID == page.firstArticle %}
                     {% assign img = post.link%}
                     {% endif %}
-                    <a href="{{img}}"></a><img style="    opacity: 0.8;
-width: 180px; margin-left: 10px; height: 100px;" src="{{site.data.articles.articles[page.firstArticle].images[0].image }}">
+                    <a href="{{img}}"><img style="    opacity: 0.8;
+width: 180px; margin-left: 10px; height: 100px;" src="{{site.data.articles.articles[page.firstArticle].images[0].image }}"></a>
                     
                     <div style="width: 180px; margin-left: 10px; font-size: 15px; font-weight: 700; margin-top: 3px;">
                         {{ site.data.articles.articles[page.firstArticle].title }}
