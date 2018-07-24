@@ -1,4 +1,4 @@
 ---
 ---
-var articleData = JSON.parse(`{{site.data.articles}}`); 
+var articleData = `{{site.data.articles | jsonify}}`; 
 console.log(articleData)
