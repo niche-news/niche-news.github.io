@@ -10,7 +10,8 @@ thirdArticle: '3'
 fourthArticle: '4'
 fifthArticle: '5'
 aID: 1 
-author: "Charlie Davis" 
+author: Charlie Davis
+
 ---
 <img src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/34536815_1793353517375133_8883663535607906304_n.jpg?_nc_cat=0&oh=3ea60fae6e8a6a4c5062204c8d38dec8&oe=5BE2E557" alt="drawing" width="685px"/>
 
