@@ -2,4 +2,4 @@
 ---
 console.log($('#getmonth'))
 
-var chapters = {{site.data.articles}};
+console.log({{site.data.articles}});
