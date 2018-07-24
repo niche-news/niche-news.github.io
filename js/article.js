@@ -1,8 +1,5 @@
 //i'm sorry for this code
-console.log($('#getmonth').innerHTML)
-
-var str = file_get_contents('/_data/contributors.json');
-var json = json_decode(str, true); // decode the JSON into an associative array
+console.log($('#getmonth'))
 
 
 console.log(json)
