@@ -28,12 +28,8 @@ layout: default
                     <div style="width: 180px; height: 40px;"></div>
                 </div>
                 <div style="width: 200px; float:left; height: 140px; margin-top:40px">
-                    <div style="width: 180px; margin-left: 10px; height: 100px;background: url() center center no-repeat;">
-                        {{ site.data.articles.articles[page.firstArticle].images.image }}
-                        {{ site.data.articles.articles.1.images.image }}
-                        {{ site.data.articles.articles[page.firstArticle].images[image] }}
+                    <img style="width: 180px; margin-left: 10px; height: 100px;" src="{{site.data.articles.articles[page.secondArticle].images[0].image }}">
 
-                    </div>
                     <div style="width: 180px; margin-left: 10px; font-size: 15px; font-weight: 700; margin-top: 3px;">
 
                         {{ site.data.articles.articles[page.secondArticle].title }}
@@ -42,9 +38,8 @@ layout: default
                     <div style="width: 180px; height: 40px;"></div>
                 </div>
                 <div style="width: 200px; float:left; height: 140px; margin-top:40px">
-                    <div style="width: 180px; margin-left: 10px; height: 100px;background: url(/graphics/download.png) center center no-repeat;">
-                        {{ site.data.articles.articles[page.firstArticle].images[1] }}
-                    </div>
+                    <img style="width: 180px; margin-left: 10px; height: 100px;" src="{{site.data.articles.articles[page.thirdArticle].images[0].image }}">
+
                     <div style="width:5px;"></div>
                     <div style="width: 180px; margin-left: 10px; font-size: 15px; font-weight: 700; margin-top: 3px;">
                         {{ site.data.articles.articles[page.thirdArticle].title }}
@@ -53,9 +48,8 @@ layout: default
                     <div style="width: 180px; height: 40px;"></div>
                 </div>
                 <div style="width: 200px; float:left; height: 140px; margin-top:40px;">
-                    <div style="width: 180px; margin-left: 10px; height: 100px;background: url(/graphics/download.png) center center no-repeat;">
-                        
-                    </div>                    <div style="width:5px;"></div>
+                    <img style="width: 180px; margin-left: 10px; height: 100px;" src="{{site.data.articles.articles[page.fourthArticle].images[0].image }}">
+                    <div style="width:5px;"></div>
 
                     <div style="width: 180px; margin-left: 10px; font-size: 15px; font-weight: 700; margin-top: 3px;">
                         {{ site.data.articles.articles[page.fourthArticle].title }}
