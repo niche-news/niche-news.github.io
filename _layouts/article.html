@@ -8,10 +8,10 @@ layout: default
 
         <div style="width:200px; height: 1032px; float:left;"id="leftbar">
             <div style="width:100%; height: 170px; float:left;">
-                <div style=" background: url({{page.}}) center center no-repeat; height: 60%; width:60%; margin-left: 20%; margin-top: 20%;clip-path: circle(40%);">
+                <div style=" background: url({{site.data.articles.contributors[page.contributorId]}}) center center no-repeat; height: 60%; width:60%; margin-left: 20%; margin-top: 20%;clip-path: circle(40%);">
                 </div>
                 <div style="font-size: 13px; color: #58595B;float:left; width:60%; margin-left: 20%; text-align: center; ">Written By: </div>
-                <div style="font-size: 24px; color: #231f20;float:left; width:80%; margin-left: 10%; text-align: center; ">{{page.author}}</div>
+                <div style="font-size: 24px; color: #231f20;float:left; width:80%; margin-left: 10%; text-align: center; ">{{site.data.contributors.contributors[page.authorId].image}}</div>
             </div>
             <div style="width:1px; height: 20px;"></div>
             <div id="otherarticles" style="width:200px; height:700px; float:left; margin-top:20px"> 
