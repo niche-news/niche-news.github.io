@@ -1,6 +1,7 @@
 ---
 layout: article 
 title:  "The Truth on Electric Cars" 
+contributorId: "3";
 date: 2018-06-04 
 month: July
 dateDisp: "2018-06-04"
