@@ -8,8 +8,8 @@ title: Home
 
         <div id="spacer"></div>
         {% for var in site.data.mainpage.children %}
-            {{var.type}}
             {% include main.html %}
+            {% include {{var.type}} %}
 
         {% endfor %}
 
