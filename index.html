@@ -8,7 +8,7 @@ title: Home
 
         <div id="spacer"></div>
         {{for obj in site.data.mainpage}}
-            {{include obj.type}}
+            {% include {{obj.type}} %}
         {{endfor}}
 
 
