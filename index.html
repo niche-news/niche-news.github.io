@@ -9,7 +9,8 @@ title: Home
         <div id="spacer"></div>
         {% for var in site.data.mainpage %}
             {% if var.first %}
-             1 {{var.first}}
+                {{var.type}}
+                {{var.first}}
             {% else %}
              //ree var is a string
             {% endif %}
