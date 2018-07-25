@@ -6,10 +6,10 @@ title: Home
 <title>Niche News</title>
 <link rel="stylesheet" type="text/css" href="main.css">
 
-        <div id="spacer"></div>contributors
+        <div id="spacer"></div>
         {% for var in site.data.mainpage.mainpage %}
             {% if var.first %}
-              {{obj}}
+              {{var}}
             {% else %}
              //re var is a string
             {% endif %}
