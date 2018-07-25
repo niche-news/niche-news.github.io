@@ -3,8 +3,7 @@
             </div>
             <div id="textcontainer2">
                 <div class="titleText">
-                    {{include.meme.content[0]}}w
-                    {{ site.data.articles.articles["1"] }}
+                    {% assign content = site.data.articles.articles[include.meme.content[0]]  %}
                 </div>
                 <div class="subheadingText">
                     {{ site.data.articles.articles[{{include.meme.content[0]}}].text }}
