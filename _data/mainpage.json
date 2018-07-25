@@ -1,0 +1,23 @@
+{
+  1 : {
+    "type": "main",
+    "content": ['1']
+  },
+  2 : {
+    "type": "quad",
+    "content": ['1','2','3','4']
+  },
+  3 : {
+    "type": "quad",
+    "content": ['1','2','3','4']
+  },
+  4 : {
+    "type": "double",
+    "content": ['1','2']
+  },
+  5 : {
+    "type": "block",
+    "content": "contributors"
+  }
+
+}
