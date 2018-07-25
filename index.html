@@ -10,9 +10,9 @@ title: Home
         {% for obj in site.data.mainpage.start %}
             {% assign jsonifiedobj = {{obj | jsonify}} %}
             <p>{{ jsonifiedobj.1.type }}</p>
-            <p> {{ obj | jsonify}}</p>
+            <p> {{obj}}</p>
             <p> {{jsonifiedobj}}</p>
-
+            <p> type: {{obj.type}}</p>
         {% endfor %}
 
 
