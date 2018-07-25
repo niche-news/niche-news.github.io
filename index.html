@@ -9,7 +9,7 @@ title: Home
         <div id="spacer"></div>
         {% for var in site.data.mainpage.children %}
             {{var.type}}
-            {% include {{var.type}} %}
+            {% include main.html %}
 
         {% endfor %}
 
