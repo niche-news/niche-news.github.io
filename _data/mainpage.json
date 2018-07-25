@@ -1,23 +1,25 @@
-"start" : {
-  1 : {
-    "type": "main.html",
-    "content": ['1']
-  },
-  2 : {
-    "type": "quad.html",
-    "content": ['1','2','3','4']
-  },
-  3 : {
-    "type": "quad.html",
-    "content": ['1','2','3','4']
-  },
-  4 : {
-    "type": "double.html",
-    "content": ['1','2']
-  },
-  5 : {
-    "type": "block.html",
-    "content": "contributors"
-  }
+{
+    "start" : {
+      1 : {
+        "type": "main.html",
+        "content": ['1']
+      },
+      2 : {
+        "type": "quad.html",
+        "content": ['1','2','3','4']
+      },
+      3 : {
+        "type": "quad.html",
+        "content": ['1','2','3','4']
+      },
+      4 : {
+        "type": "double.html",
+        "content": ['1','2']
+      },
+      5 : {
+        "type": "block.html",
+        "content": "contributors"
+      }
 
+    }
 }
