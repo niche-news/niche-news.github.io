@@ -7,11 +7,11 @@ title: Home
 <link rel="stylesheet" type="text/css" href="main.css">
 
         <div id="spacer"></div>contributors
-        {% for var in site.data.mainpage %}
+        {% for var in site.data.mainpage.mainpage %}
             {% if var.first %}
               {{obj}}
             {% else %}
-             // var is a string
+             //re var is a string
             {% endif %}
         {% endfor %}
 
