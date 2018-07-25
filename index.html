@@ -8,8 +8,11 @@ title: Home
 
         <div id="spacer"></div>
         {% for obj in site.data.mainpage.start %}
-            {{obj}}
-            {{obj.type}}
+            {% if var.first %}
+              {{obj}}
+            {% else %}
+             // var is a string
+            {% endif %}
         {% endfor %}
 
 
