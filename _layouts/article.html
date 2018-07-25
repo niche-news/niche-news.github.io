@@ -20,7 +20,7 @@ layout: default
                 <div style="width: 200px; float:left; height: 140px; margin-top:40px">
                     {% for post in site.posts %}
                         {% if post.aID == page.firstArticle %}
-                            {% assign img = post.link%}
+                            {% assign img = post.link %}
                         {% endif %}
                     {% endfor %}
                     <a href="{{img}}" class="mainNav"><img height=100px width=180px style="    opacity: 0.8;
@@ -37,7 +37,7 @@ width: 180px; margin-left: 10px; height: 100px;" src="{{site.data.articles.artic
                     
                     {% for post in site.posts %}
                         {% if post.aID == page.secondArticle %}
-                            {% assign img2 = post.link%}
+                            {% assign img2 = post.link %}
                         {% endif %}
                     {% endfor %}
                     <a href="{{img2}}" class="mainNav"><img height=100px width=180px style="    opacity: 0.8;
