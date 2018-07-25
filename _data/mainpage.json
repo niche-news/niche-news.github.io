@@ -1,22 +1,22 @@
 {
   1 : {
-    "type": "main",
+    "type": "main.html",
     "content": ['1']
   },
   2 : {
-    "type": "quad",
+    "type": "quad.html",
     "content": ['1','2','3','4']
   },
   3 : {
-    "type": "quad",
+    "type": "quad.html",
     "content": ['1','2','3','4']
   },
   4 : {
-    "type": "double",
+    "type": "double.html",
     "content": ['1','2']
   },
   5 : {
-    "type": "block",
+    "type": "block.html",
     "content": "contributors"
   }
 
