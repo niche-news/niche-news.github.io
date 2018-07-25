@@ -12,8 +12,8 @@
                 <div id="nameanddate">
                     <div id="name">
                         {{include.meme.content[0]}}
-                        {{ site.data.articles.articles | jsonify }}
-                        By {{ site.data.articles.articles[ind] }}ounch
+                        {% assign mdata = site.data.articles.articles | jsonify %}
+                        By {{ mdata.authorName }}ounch
                     </div>
                     <div id="date">
                     </div>
