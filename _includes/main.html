@@ -12,9 +12,9 @@
                 <div id="nameanddate">
                     <div id="name">
                         {% assign mdata = site.data.articles.articles %}
-                        {% assign ID = include.meme %}
+                        {% assign ID = include.meme  %}
                         {{ ID }}
-                        By {{ mdata["1"].authorName }}ounch
+                        By {{ mdata[ID].authorName }}ounch
                     </div>
                     <div id="date">
                     </div>
