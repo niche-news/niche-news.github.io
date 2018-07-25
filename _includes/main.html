@@ -3,17 +3,14 @@
             </div>
             <div id="textcontainer2">
                 <div class="titleText">
-                    {% assing findex = include.meme.content[0] %}
-                    {% assign memetent = site.data.articles.articles[1]  %}
-                    {{findex}}w
-                    {{memetent}}
+                    
                 </div>
                 <div class="subheadingText">
                     {{ memetent.text }}
                 </div>
                 <div id="nameanddate">
                     <div id="name">
-                        By {{ site.data.articles.articles[include.meme.content[0]].authorName }}
+                        By {{ site.data.articles.articles[include.meme.content[0] | plus:1].authorName }}
                     </div>
                     <div id="date">
                         {{ site.data.articles.articles[include.meme.content[0]].date }}
