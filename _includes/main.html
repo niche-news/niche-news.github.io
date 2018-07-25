@@ -4,21 +4,28 @@
             <div style="height:100%; width:49%; float: left; ">
                 <img  style="  overflow: hidden;  opacity: 0.8; width:100%; height: 100%; object-fit: contain; " src="{{ site.data.articles.articles[id].images[0].image }}">
             </div>
-            <div id="textcontainer2">
-                <div class="titleText">
-                    {{ site.data.articles.articles[id].title }}
-                </div>
-                <div class="subheadingText">
-                    {{ site.data.articles.articles[id].text | truncate: 500, " . . .  " }}
+            {% for post in site.posts %}
+                {% if post.aID == id %}
+                   {% assign img = post.link %}
+                {% endif %}
+            {% endfor %}
+            <a class="articleclick" href="{{img}}">
+                <div id="textcontainer2">
+                    <div class="titleText">
+                        {{ site.data.articles.articles[id].title }}
+                    </div>
+                    <div class="subheadingText">
+                        {{ site.data.articles.articles[id].text | truncate: 500, " . . .  " }}
 
-                </div>
-                <div id="nameanddate">
-                    <div id="name">
-                        By {{ site.data.articles.articles[id].authorName }}
                     </div>
-                    <div id="date">
-                        {{ site.data.articles.articles[id].date }}
+                    <div id="nameanddate">
+                        <div id="name">
+                            By {{ site.data.articles.articles[id].authorName }}
+                        </div>
+                        <div id="date">
+                            {{ site.data.articles.articles[id].date }}
+                        </div>
                     </div>
                 </div>
-            </div>
+            </a>
         </div>
