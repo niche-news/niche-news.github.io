@@ -7,9 +7,9 @@ title: Home
 <link rel="stylesheet" type="text/css" href="main.css">
 
         <div id="spacer"></div>
-        {% for obj  | jsonify in site.data.mainpage.start %}
+        {% for obj in site.data.mainpage.start %}
             <p>{{ obj.type }}</p>
-            <p> {{ obj }}</p>
+            <p> {{ obj | jsonify}}</p>
         {% endfor %}
 
 
