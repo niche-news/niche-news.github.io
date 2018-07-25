@@ -11,6 +11,8 @@ title: Home
             {% assign jsonifiedobj = {{obj | jsonify}} %}
             <p>{{ jsonifiedobj.type }}</p>
             <p> {{ obj | jsonify}}</p>
+            <p> {{jsonifiedobj}}</p>
+
         {% endfor %}
 
 
