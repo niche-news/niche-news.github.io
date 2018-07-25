@@ -9,7 +9,7 @@ title: Home
         <div id="spacer"></div>
         {% for obj in site.data.mainpage.start %}
             {% assign jsonifiedobj = {{obj | jsonify}} %}
-            <p>{{ obj.type }}</p>
+            <p>{{ jsonifiedobj.type }}</p>
             <p> {{ obj | jsonify}}</p>
         {% endfor %}
 
