@@ -36,7 +36,7 @@ width: 180px; margin-left: 10px; height: 100px;" src="{{site.data.articles.artic
                 <div style="width: 200px; float:left; height: 140px; margin-top:40px">
                     
                     {% for post in site.posts %}
-                        {% if post.aID == page.firstArticle %}
+                        {% if post.aID == page.secondArticle %}
                             {% assign img2 = post.link%}
                         {% endif %}
                     {% endfor %}
@@ -52,7 +52,7 @@ width: 180px; margin-left: 10px; height: 100px;" src="{{site.data.articles.artic
                 </div>
                 <div style="width: 200px; float:left; height: 140px; margin-top:40px">
                     {% for post in site.posts %}
-                        {% if post.aID == page.firstArticle %}
+                        {% if post.aID == page.thirdArticle %}
                             {% assign img3 = post.link%}
                         {% endif %}
                     {% endfor %}
@@ -68,7 +68,7 @@ width: 180px; margin-left: 10px; height: 100px;" src="{{site.data.articles.artic
                 </div>
                 <div style="width: 200px; float:left; height: 140px; margin-top:40px;">
                     {% for post in site.posts %}
-                        {% if post.aID == page.firstArticle %}
+                        {% if post.aID == page.fourthArticle %}
                             {% assign img4 = post.link%}
                         {% endif %}
                     {% endfor %}
