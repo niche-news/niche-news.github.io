@@ -4,8 +4,8 @@
             <div id="textcontainer2">
                 <div class="titleText">
                     {% assing findex = include.meme.content[0] %}
-                    {% assign memetent = site.data.articles.articles[{{findex}}]  %}
-                    {{include.meme.content[0]}}
+                    {% assign memetent = site.data.articles.articles[ {{ findex }} ]  %}
+                    {{findex}}w
                     {{memetent}}
                 </div>
                 <div class="subheadingText">
