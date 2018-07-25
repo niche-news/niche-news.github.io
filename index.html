@@ -12,9 +12,10 @@ title: Home
             <p>{{ jsonifiedobj.1.type }}</p>
             <p> {{obj}}</p>
             <p> {{jsonifiedobj}}</p>
-            <p> type: {{obj[type]}}</p>
+            <p> type: {{obj['type']}}</p>
             <p> type: {{obj.type}}</p>
-            <p> type: {{obj["1"]}}</p>
+            <p> type: {{obj["1"].type}}</p>
+            <p> type: {{obj["1"]['type']}</p>
 
         {% endfor %}
 
