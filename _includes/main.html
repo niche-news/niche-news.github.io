@@ -1,4 +1,6 @@
-        <div id="firstrow">
+---
+---
+<div id="firstrow">
             <div id="imgcontainer1">
             </div>
             <div id="textcontainer2">
@@ -10,7 +12,7 @@
                 <div id="nameanddate">
                     <div id="name">
                         {{include.meme.content[0]}}
-                        {{site.data.articles.articles[0]}}
+                        {{ site.data.articles.articles | jsonify }}
                         By {{ site.data.articles.articles[ind] }}ounch
                     </div>
                     <div id="date">
