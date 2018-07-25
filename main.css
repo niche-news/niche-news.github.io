@@ -44,7 +44,6 @@ a.mainNav:visited {
   /* Applies to visited links of class mainNav */
   text-decoration:  none;
   font-weight:      bold;
-  background-color: #ddd;
   color:            black;
   } 
 a.mainNav:hover   {
