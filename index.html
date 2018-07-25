@@ -6,12 +6,9 @@ title: Home
 <title>Niche News</title>
 <link rel="stylesheet" type="text/css" href="main.css">
 
-        <div id="spacer"></div>
-        {% for var in site.data.mainpage.children %}
-    q        {{var.type}}
-    
+        {% for var in site.data.mainpage.children %}    
             {% include {{ var.type }} %} 
-
+            <div id="spacer"></div>
         {% endfor %} 
 
 
