@@ -34,28 +34,28 @@
 }
 
 
-a:link    {
+a.mainNav:link    {
   /* Applies to unvisited links of class mainNav */
   text-decoration:  none;
   font-weight:      bold;
   background-color: #ddd;
   color:            blue;
   } 
-a:visited {
+a.mainNav:visited {
   /* Applies to visited links of class mainNav */
   text-decoration:  none;
   font-weight:      bold;
   background-color: #ddd;
   color:            #f0f;
   } 
-a:hover   {
+a.mainNav:hover   {
   /* Applies to links under the pointer of class mainNav */
   text-decoration:  underline;
   font-weight:      bold;
   background-color: blue;
   color:            #fff;
   } 
-a:active  {
+a.mainNav:active  {
   /* Applies to activated links of class mainNav */
   text-decoration:  underline;
   font-weight:      bold;
