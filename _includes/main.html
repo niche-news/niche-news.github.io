@@ -4,6 +4,8 @@
             <div id="textcontainer2">
                 <div class="titleText">
                     {% assign memetent = site.data.articles.articles[{{include.meme.content[0]}}]  %}
+                    {{include.meme.content[0]}}
+                    {{memetent}}
                 </div>
                 <div class="subheadingText">
                     {{ memetent.text }}
