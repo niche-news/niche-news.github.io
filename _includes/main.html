@@ -11,10 +11,8 @@
                 </div>
                 <div id="nameanddate">
                     <div id="name">
-                        {% assign mdata = site.data.articles.articles %}
-                        {% assign ID = include.meme  %}
-                        {% capture id %}{{ID[0]}}{% endcapture %}
-                        By {{ mdata[id].authorName }}
+                        {% capture id %}{{include.meme[0]}}{% endcapture %}
+                        By {{ site.data.articles.articles[id].authorName }}
                     </div>
                     <div id="date">
                     </div>
