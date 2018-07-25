@@ -1,5 +1,5 @@
 {
-    "start" : {
+    "mainpage" : {
       '1' : {
         "type": "main.html",
         "content": ['1'],
