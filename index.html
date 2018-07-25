@@ -7,7 +7,7 @@ title: Home
 <link rel="stylesheet" type="text/css" href="main.css">
 
         {% for var in site.data.mainpage.children %}    
-            {% include {{ var.type }} with idarray=var %} 
+            {% include {{ var.type }} with v=var %} 
             <div id="spacer"></div>
         {% endfor %} 
 
