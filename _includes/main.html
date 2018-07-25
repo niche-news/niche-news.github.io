@@ -1,20 +1,23 @@
 ---
 ---
 <div id="firstrow">
+            {% capture id %}{{include.meme[0]}}{% endcapture %}
             <div id="imgcontainer1">
             </div>
             <div id="textcontainer2">
                 <div class="titleText">
-                    
+                    {{ site.data.articles.articles[id].title }}
                 </div>
                 <div class="subheadingText">
+                    {{ site.data.articles.articles[id].body | truncate: 200, ". . .  " }}
+
                 </div>
                 <div id="nameanddate">
                     <div id="name">
-                        {% capture id %}{{include.meme[0]}}{% endcapture %}
                         By {{ site.data.articles.articles[id].authorName }}
                     </div>
                     <div id="date">
+                        {{ site.data.articles.articles[id].date }}
                     </div>
                 </div>
             </div>
