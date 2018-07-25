@@ -1,0 +1,24 @@
+{
+    children: [
+      {
+        "type": "main.html",
+        "content": ["1"]
+      },
+      {
+        "type": "quad.html",
+        "content": ["1","2","3","4"]
+      },
+      {
+        "type": "quad.html",
+        "content": ["1","2","3","4"]
+      },
+      {
+        "type": "double.html",
+        "content": ["1","2"]
+      },
+      {
+        "type": "block.html",
+        "content": "contributors"
+      }
+    ]
+}

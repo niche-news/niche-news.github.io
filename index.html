@@ -7,7 +7,9 @@ title: Home
 <link rel="stylesheet" type="text/css" href="main.css">
 
         <div id="spacer"></div>
-        {% for var in site.data.mainpage %}
+        {% for var in site.data.mainpage.children %}
+                {{var.type}}
+
             {% if var.first %}
                 {{var.type}}
                 {{var.first}}
