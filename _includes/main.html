@@ -13,11 +13,8 @@
                     <div id="name">
                         {% assign mdata = site.data.articles.articles %}
                         {% assign ID = include.meme  %}
-                        {{ ID }}
-                        zero {{ ID[0] }}
-                        one {{ ID[1] }}
-
-                        By {{ mdata["1"].authorName }}
+                        {% capture id %}0{% endcapture %}
+                        By {{ mdata[id].authorName }}
                     </div>
                     <div id="date">
                     </div>
