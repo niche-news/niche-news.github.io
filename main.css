@@ -38,29 +38,26 @@ a.mainNav:link    {
   /* Applies to unvisited links of class mainNav */
   text-decoration:  none;
   font-weight:      bold;
-  background-color: #ddd;
-  color:            blue;
+  color:            black;
   } 
 a.mainNav:visited {
   /* Applies to visited links of class mainNav */
   text-decoration:  none;
   font-weight:      bold;
   background-color: #ddd;
-  color:            #f0f;
+  color:            black;
   } 
 a.mainNav:hover   {
   /* Applies to links under the pointer of class mainNav */
   text-decoration:  underline;
   font-weight:      bold;
-  background-color: blue;
-  color:            #fff;
+  color:            black;
   } 
 a.mainNav:active  {
   /* Applies to activated links of class mainNav */
   text-decoration:  underline;
   font-weight:      bold;
-  background-color: black;
-  color: white;
+  color: black;
   } 
 
 #leftSide {
