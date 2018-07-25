@@ -7,9 +7,9 @@ title: Home
 <link rel="stylesheet" type="text/css" href="main.css">
 
         <div id="spacer"></div>
-        {{for obj in site.data.mainpage}}
-            obj.type
-        {{endfor}}
+        {% for obj in site.data.mainpage %}
+            {{obj.type}}
+        {% endfor %}
 
 
 
