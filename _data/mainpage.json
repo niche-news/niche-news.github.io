@@ -2,7 +2,7 @@
     "children": [
       {
         "type": "main.html",
-        "content": ["1"]
+        "content": ["1","2","3","4"]
       },
       {
         "type": "quad.html",
