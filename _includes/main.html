@@ -9,10 +9,10 @@
                 </div>
                 <div id="nameanddate">
                     <div id="name">
-                        By {{ site.data.articles.articles[include.meme.content[0] | plus:1] }}ounch
+                        {% assign ind = include.meme.content[0] | plus:0 %} ree
+                        By {{ site.data.articles.articles[ind] }}ounch
                     </div>
                     <div id="date">
-                        {{ include.meme.content[0] | plus:1 }} ree
                     </div>
                 </div>
             </div>
