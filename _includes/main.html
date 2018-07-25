@@ -9,10 +9,10 @@
                 </div>
                 <div id="nameanddate">
                     <div id="name">
-                        By {{ site.data.articles.articles[include.meme.content[0] | plus:1].authorName }}ounch
+                        By {{ site.data.articles.articles[include.meme.content[0] | plus:1] }}ounch
                     </div>
                     <div id="date">
-                        {{ site.data.articles.articles[include.meme.content[0]].date }}
+                        {{ include.meme.content[0] | plus:1 }} ree
                     </div>
                 </div>
             </div>
