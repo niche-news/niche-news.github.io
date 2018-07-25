@@ -8,15 +8,8 @@ title: Home
 
         <div id="spacer"></div>
         {% for obj in site.data.mainpage.start %}
-            {% assign jsonifiedobj = {{obj | jsonify}} %}
-            <p>{{ jsonifiedobj.1.type }}</p>
-            <p> {{obj}}</p>
-            <p> {{jsonifiedobj}}</p>
-            <p> type: {{obj['type']}}</p>
-            <p> type: {{obj.type}}</p>
-            <p> type: {{obj["1"].type}}</p>
-            <p> type: {{obj["1"]['type']}}</p>
-
+            {{obj}}
+            {{obj.type}}
         {% endfor %}
 
 
