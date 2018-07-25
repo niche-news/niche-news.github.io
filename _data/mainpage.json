@@ -17,7 +17,7 @@
         "content": ["1","2"]
       },
       {
-        "type": "block.html",
+        "type": "contributors.html",
         "content": "contributors"
       }
     ]
