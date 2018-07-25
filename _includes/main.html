@@ -1,9 +1,7 @@
----
----
 <div id="firstrow">
             {% capture id %}{{include.meme[0]}}{% endcapture %}
             
-            <div style="height:100%; width:49%;">
+            <div style="height:100%; width:49%; float: left; ">
                 <img  style="  overflow: hidden;  opacity: 0.8; width:100%; height: 100%; object-fit: contain; " src="{{ site.data.articles.articles[id].images[0].image }}">
             </div>
             <div id="textcontainer2">
