@@ -8,9 +8,8 @@ title: Home
 
         <div id="spacer"></div>
         {% for var in site.data.mainpage.children %}
-            {% assign q = site.data.articles.articles[{{forloop.index}}] %}
             {{var.type}}
-            {{q}}
+            {% include {{var.type}} %}
 
         {% endfor %}
 
