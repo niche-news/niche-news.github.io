@@ -1,5 +1,5 @@
 {
-    children: [
+    "children": [
       {
         "type": "main.html",
         "content": ["1"]
