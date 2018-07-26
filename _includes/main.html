@@ -11,10 +11,10 @@
             {% endfor %}
             <a class="mainNav" href="{{img}}">
                 <div id="textcontainer2">
-                    <div class="titleText">
+                    <div id="titleText">
                         {{ site.data.articles.articles[id].title }}
                     </div>
-                    <div class="subheadingText">
+                    <div id="subheadingText">
                         {{ site.data.articles.articles[id].text | truncate: 500, " . . .  " }}
 
                     </div>
