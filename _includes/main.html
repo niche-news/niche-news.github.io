@@ -9,8 +9,8 @@
                    {% assign img = post.link %}
                 {% endif %}
             {% endfor %}
-            <a class="mainNav" href="{{img}}">
                 <div id="textcontainer2">
+                    <a class="mainNav" href="{{img}}">
                     <div id="titleText">
                         {{ site.data.articles.articles[id].title }}
                     </div>
@@ -26,6 +26,6 @@
                             {{ site.data.articles.articles[id].date }}
                         </div>
                     </div>
+                   </a>
                 </div>
-            </a>
         </div>
