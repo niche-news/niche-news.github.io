@@ -3,6 +3,7 @@ layout: article
 title:  "The Truth on Electric Cars" 
 contributorId: '3'
 date: 2018-06-04 
+categories: article
 month: July
 dateDisp: "2018-06-04"
 firstArticle: '1'
@@ -11,7 +12,7 @@ thirdArticle: '3'
 fourthArticle: '4'
 fifthArticle: '5'
 aID: '1'
-link: 'https://niche-news.github.io/2018/06/04/the-truth-on-electric-cars.html'
+link: 'https://niche-news.github.io/article/the-truth-on-electric-cars.html'
 author: 'Charlie Davis'
 ---
 
