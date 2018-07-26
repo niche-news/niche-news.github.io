@@ -46,13 +46,15 @@
       "possition": "Writer"
     },
     "5": {
-      "articleIDs": [],
-      "bio": "Hi my name is Jaffer Ali",
-      "id": 5,
-      "image": "https://scontent.fewr1-2.fna.fbcdn.net/v/t31.0-1/c282.0.960.960/p960x960/10506738_10150004552801856_220367501106153455_o.jpg?_nc_cat=0&oh=f9ed6f4c4ee5fab23b904865e6472356&oe=5B9FD312",
-      "nameFirst": "Jaffer",
-      "nameLast": "Ali",
-      "possition": "Developer"
+      "articleIDs": [
+        2
+      ],
+      "bio": "Hi my name is Kevin Wang",
+      "id": 8,
+      "image": "https://scontent-atl3-1.xx.fbcdn.net/v/t31.0-8/29662477_423536211407047_2099773653284152548_o.jpg?_nc_cat=0&oh=f4fb44e52cabd0d0a9a186d686f22b7e&oe=5BA31B10",
+      "nameFirst": "Kevin",
+      "nameLast": "Wang",
+      "possition": "Writer"
     },
     "6": {
       "articleIDs": [
@@ -75,16 +77,15 @@
       "nameLast": "Lama",
       "possition": "Writer"
     },
+
     "8": {
-      "articleIDs": [
-        2
-      ],
-      "bio": "Hi my name is Kevin Wang",
-      "id": 8,
-      "image": "https://scontent-atl3-1.xx.fbcdn.net/v/t31.0-8/29662477_423536211407047_2099773653284152548_o.jpg?_nc_cat=0&oh=f4fb44e52cabd0d0a9a186d686f22b7e&oe=5BA31B10",
-      "nameFirst": "Kevin",
-      "nameLast": "Wang",
-      "possition": "Writer"
+      "articleIDs": [],
+      "bio": "Hi my name is Jaffer Ali",
+      "id": 5,
+      "image": "https://scontent.fewr1-2.fna.fbcdn.net/v/t31.0-1/c282.0.960.960/p960x960/10506738_10150004552801856_220367501106153455_o.jpg?_nc_cat=0&oh=f9ed6f4c4ee5fab23b904865e6472356&oe=5B9FD312",
+      "nameFirst": "Jaffer",
+      "nameLast": "Ali",
+      "possition": "Developer"
     },
     "9": {
       "articleIDs": [],
