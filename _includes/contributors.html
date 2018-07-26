@@ -13,9 +13,7 @@
                         t
 
                         {% for post in site.posts %}
-                            {% assign q = post.contributorId | plus:0 %}
-                            {% assign e = contrib.id | plus:0 %}
-                            {% if post.aID == '9999' and  q == e %}
+                            {% if post.aID == '9999' and {{post.contributorId | plus:0}} == contrib.id %}
                                     <a class="mainNav" style="font-weight:normal;"href="{{post.link}}">
                                         <div style="width:100%; height: 40px; line-height: 1; text-align: center; font-family: inherit">{{contrib.nameFirst}} {{contrib.nameLast}}</div>
                                     </a>    
