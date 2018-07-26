@@ -8,4 +8,4 @@ link: 'https://niche-news.github.io/contributor/charlie-davis.html'
 author: 'Profile'
 ---
 
-{{site.data.contributors.contributors[{{contributorId}}].bio}}
+Hi my name is Charlie Davis

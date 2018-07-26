@@ -8,4 +8,4 @@ link: 'https://niche-news.github.io/contributor/gabbie-stoller.html'
 author: 'Profile'
 ---
 
-{{site.data.contributors.contributors[{{contributorId}}].bio}}
+Hi my name is Gabbie Stoller
