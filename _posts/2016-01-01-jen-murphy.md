@@ -7,3 +7,5 @@ aID: '9999'
 link: 'https://niche-news.github.io/contributor/jen-murphy.html'
 author: 'Profile'
 ---
+
+{{site.data.contributors.contributors[{{contributorId}}].bio}}
