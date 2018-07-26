@@ -11,17 +11,7 @@
                         <img height=100px width=100px style="    opacity: 0.8;
                         width: 100%; height: 100px;    border-radius: 50%;" src="{{contrib.image}}">
                         
-                        {% for post in site.posts %}
-                            
-                            {% if post.aID == '9999' %}
-                                {% assign compID = contrib.id | plus: 0 %}
-                                 {% if post.contributorId == compID %}
 
-                                <a class="mainNav" style="font-weight:normal;"href="{{post.link}}">
-                                    <div style="width:100%; height: 40px; line-height: 1; text-align: center; font-family: inherit">{{contrib.nameFirst}} {{contrib.nameLast}}</div>
-                                </a>               
-                            {% endif %}
-                        {% endfor %}
                         
                 </div>
             {% assign contrib = site.data.contributors.contributors["2"] %}
@@ -35,17 +25,7 @@
                         width: 100%; height: 100px;    border-radius: 50%;" src="{{contrib.image}}">
 
 
-                        {% for post in site.posts %}
-                            
-                            {% if post.aID == '9999' %}
-                                {% assign compID = contrib.id | plus: 0 %}
-                                 {% if post.contributorId == compID %}
-
-                                <a class="mainNav" style="font-weight:normal;"href="{{post.link}}">
-                                    <div style="width:100%; height: 40px; line-height: 1; text-align: center; font-family: inherit">{{contrib.nameFirst}} {{contrib.nameLast}}</div>
-                                </a>               
-                            {% endif %}
-                        {% endfor %}                    
+               
                         
                 </div>
             {% assign contrib = site.data.contributors.contributors["3"] %}
@@ -58,17 +38,7 @@
                         <img height=100px width=100px style="    opacity: 0.8;
                         width: 100%; height: 100px;    border-radius: 50%;" src="{{contrib.image}}">
 
-                        {% for post in site.posts %}
-                            
-                            {% if post.aID == '9999' %}
-                                {% assign compID = contrib.id | plus: 0 %}
-                                 {% if post.contributorId == compID %}
 
-                                <a class="mainNav" style="font-weight:normal;"href="{{post.link}}">
-                                    <div style="width:100%; height: 40px; line-height: 1; text-align: center; font-family: inherit">{{contrib.nameFirst}} {{contrib.nameLast}}</div>
-                                </a>               
-                            {% endif %}
-                        {% endfor %}
          
                         
                 </div>
@@ -84,7 +54,7 @@
                         {% for post in site.posts %}
                             
                             {% if post.aID == '9999' %}
-                                {% assign compID = contrib.id | plus: 0 %}
+                                {% assign compID = {{contrib.id | plus: 0}} %}
                                  {% if post.contributorId == compID %}
 
                                 <a class="mainNav" style="font-weight:normal;"href="{{post.link}}">
@@ -104,17 +74,7 @@
                         <img height=100px width=100px style="    opacity: 0.8;
                         width: 100%; height: 100px;    border-radius: 50%;" src="{{contrib.image}}">
 
-                        {% for post in site.posts %}
-                            
-                            {% if post.aID == '9999' %}
-                                {% assign compID = contrib.id | plus: 0 %}
-                                 {% if post.contributorId == compID %}
 
-                                <a class="mainNav" style="font-weight:normal;"href="{{post.link}}">
-                                    <div style="width:100%; height: 40px; line-height: 1; text-align: center; font-family: inherit">{{contrib.nameFirst}} {{contrib.nameLast}}</div>
-                                </a>               
-                            {% endif %}
-                        {% endfor %}
                         
                 </div>            {% assign contrib = site.data.contributors.contributors["6"] %}
 
@@ -128,17 +88,7 @@
                         <img height=100px width=100px style="    opacity: 0.8;
                         width: 100%; height: 100px;    border-radius: 50%;" src="{{contrib.image}}">
 
-                        {% for post in site.posts %}
-                            
-                            {% if post.aID == '9999' %}
-                                {% assign compID = contrib.id | plus: 0 %}
-                                 {% if post.contributorId == compID %}
 
-                                <a class="mainNav" style="font-weight:normal;"href="{{post.link}}">
-                                    <div style="width:100%; height: 40px; line-height: 1; text-align: center; font-family: inherit">{{contrib.nameFirst}} {{contrib.nameLast}}</div>
-                                </a>               
-                            {% endif %}
-                        {% endfor %}
                         
                 </div>            {% assign contrib = site.data.contributors.contributors["7"] %}
 
@@ -150,17 +100,7 @@
                         <img height=100px width=100px style="    opacity: 0.8;
                         width: 100%; height: 100px;    border-radius: 50%;" src="{{contrib.image}}">
 
-                        {% for post in site.posts %}
-                            
-                            {% if post.aID == '9999' %}
-                                {% assign compID = contrib.id | plus: 0 %}
-                                 {% if post.contributorId == compID %}
 
-                                <a class="mainNav" style="font-weight:normal;"href="{{post.link}}">
-                                    <div style="width:100%; height: 40px; line-height: 1; text-align: center; font-family: inherit">{{contrib.nameFirst}} {{contrib.nameLast}}</div>
-                                </a>               
-                            {% endif %}
-                        {% endfor %}
                         
                 </div>            {% assign contrib = site.data.contributors.contributors["8"] %}
 
@@ -172,17 +112,7 @@
                         <img height=100px width=100px style="    opacity: 0.8;
                         width: 100%; height: 100px;    border-radius: 50%;" src="{{contrib.image}}">
 
-                        {% for post in site.posts %}
-                            
-                            {% if post.aID == '9999' %}
-                                {% assign compID = contrib.id | plus: 0 %}
-                                 {% if post.contributorId == compID %}
 
-                                <a class="mainNav" style="font-weight:normal;"href="{{post.link}}">
-                                    <div style="width:100%; height: 40px; line-height: 1; text-align: center; font-family: inherit">{{contrib.nameFirst}} {{contrib.nameLast}}</div>
-                                </a>               
-                            {% endif %}
-                        {% endfor %}
                         
                 </div>            {% assign contrib = site.data.contributors.contributors["9"] %}
 
@@ -193,17 +123,7 @@
                         </div>
                         <img height=100px width=100px style="    opacity: 0.8;
                         width: 100%; height: 100px;    border-radius: 50%;" src="{{contrib.image}}">
-                        {% for post in site.posts %}
-                            
-                            {% if post.aID == '9999' %}
-                                {% assign compID = contrib.id | plus: 0 %}
-                                 {% if post.contributorId == compID %}
 
-                                <a class="mainNav" style="font-weight:normal;"href="{{post.link}}">
-                                    <div style="width:100%; height: 40px; line-height: 1; text-align: center; font-family: inherit">{{contrib.nameFirst}} {{contrib.nameLast}}</div>
-                                </a>               
-                            {% endif %}
-                        {% endfor %}
                         
                 </div>            {% assign contrib = site.data.contributors.contributors["10"] %}
 
