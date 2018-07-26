@@ -1,74 +1,28 @@
         <div id="secondrow">
-            <div id="firstbox" class="rect">
-                <div id="imgcontainer2"></div>
-                <div id="textcontainer">
-                    <div style="width:100%; height:3px; float:left;"></div>
-                    <div id="rectTitle">
-                        Lorem ipsum dolor sit amet, consectetur adipscing elit. Nunc porta turpis.
+            {% for i in (0..3) %}
+                <div id="firstbox" class="rect">
+                {% capture id %}{{include.meme[i]}}{% endcapture %}
+                    <div id="imgcontainer2"></div>
+                    <div id="textcontainer">
+                        <div style="width:100%; height:3px; float:left;"></div>
+                        <div id="rectTitle">
+                            {{ site.data.articles.articles[id].title }}
+                        </div>
+                        <div style="width:100%; height: 5px;"></div>
+                        <div id="rectsub">
+                            {{ site.data.articles.articles[id].text | truncate: 500, " . . .  " }}
+                        </div>
                     </div>
-                    <div style="width:100%; height: 5px;"></div>
-                    <div id="rectsub">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    </div>
-                </div>
-                <div id="dateandtime2" style="width: 100%; height: 15px;font-size: 10px; float: right;word-wrap: break-word; font-weight: 700">
-                    <div id="name2" style="float: left; text-align: left; width:50%;height:100%">
-                            w
-                    </div>
-                    <div id="date2" style="float: right; text-align: right; width:50%; height:100%; ">
-                        w
-                    </div>
-                </div>
-            </div>
-            <div id="verticalspacer"></div>
-            <div id="firstbox" class="rect">
-                <div id="imgcontainer2"></div>
-                <div id="textcontainer">
-                    <div style="width:100%; height:3px; float:left;"></div>
-                    <div id="rectTitle">
-                        Lorem ipsum dolor sit amet, consectetur adipscing elit. Nunc porta turpis.
-                    </div>
-                    <div style="width:100%; height: 5px;"></div>
-                    <div id="rectsub">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    <div id="dateandtime2" style="width: 100%; height: 15px;font-size: 10px; float: right;word-wrap: break-word; font-weight: 700">
+                        <div id="name2" style="float: left; text-align: left; width:50%;height:100%">
+                            By {{ site.data.articles.articles[id].authorName }}
+                        </div>
+                        <div id="date2" style="float: right; text-align: right; width:50%; height:100%; ">
+                            {{ site.data.articles.articles[id].date }}
+                        </div>
                     </div>
                 </div>
-                
-            </div>
-            <div id="verticalspacer"></div>
-            <div id="firstbox" class="rect">
-                <div id="imgcontainer2"></div>
-                <div id="textcontainer">
-                    <div style="width:100%; height:3px; float:left;"></div>
-                    <div id="rectTitle">
-                        Lorem ipsum dolor sit amet, consectetur adipscing elit. Nunc porta turpis.
-                    </div>
-                    <div style="width:100%; height: 5px;"></div>
-                    <div id="rectsub">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    </div>
-                </div>
-                <div id="dateandtime2" style="width: 100%; height: 15px;font-size: 10px; float: right;word-wrap: break-word; font-weight: 700">
-                    <div id="name2" style="float: left; text-align: left; width:50%;height:100%">
-                            w
-                    </div>
-                    <div id="date2" style="float: right; text-align: right; width:50%; height:100%; ">
-                        w
-                    </div>
-                </div>
-            </div>
-            <div id="verticalspacer"></div>
-            <div id="firstbox" class="rect">
-                <div id="imgcontainer2"></div>
-                <div id="textcontainer">
-                    <div style="width:100%; height:3px; float:left;"></div>
-                    <div id="rectTitle">
-                        Lorem ipsum dolor sit amet, consectetur adipscing elit. Nunc porta turpis.
-                    </div>
-                    <div style="width:100%; height: 5px;"></div>
-                    <div id="rectsub">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    </div>
-                </div>
-            </div>
+                <div id="verticalspacer"></div>
+            {% endfor %}
+
         </div>
