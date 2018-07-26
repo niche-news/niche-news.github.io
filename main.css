@@ -71,7 +71,6 @@ a.mainNav:active  {
     background-color:red; 
     height: 40%; 
     overflow: hidden;   
-    background: url(download.png) center center no-repeat;
     background-color: aliceblue;
     float: left;
 }

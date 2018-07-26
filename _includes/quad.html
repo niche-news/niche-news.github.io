@@ -2,10 +2,18 @@
             {% for i in (0..3) %}
                 <div id="firstbox" class="rect">
                 {% capture id %}{{include.meme[i]}}{% endcapture %}
-                    <div id="imgcontainer2"></div>
+                <div id="imgcontainer2">
+                    <img style="  overflow: hidden;  opacity: 0.8; width:100%; height: 100%; object-fit: contain; " src="{{ site.data.articles.articles[id].images[0].image }}">
+                </div>
+                {% for post in site.posts %}
+                    {% if post.aID == id %}
+                        {% assign img = post.link %}
+                    {% endif %}
+                {% endfor %}
+                <a class="articleclick" href="{{img}}">
                     <div id="dateandtime2" style="width: 100%; height: 15px;font-size: 10px; float: right;word-wrap: break-word; font-weight: 700">
                         <div id="name2" style="float: left; text-align: left; width:50%;height:100%">
-                            By {{ site.data.articles.articles[id].authorName }}
+                            {{ site.data.articles.articles[id].authorName }}
                         </div>
                         <div id="date2" style="float: right; text-align: right; width:50%; height:100%; ">
                             {{ site.data.articles.articles[id].date }}
@@ -21,7 +29,7 @@
                             {{ site.data.articles.articles[id].text | truncate: 150, " . . .  " }}
                         </div>
                     </div>
-
+                    </a>
                 </div>
                 {% if i == 0 or i == 1 or i == 2 %}
                     <div id="verticalspacer"></div>
