@@ -13,12 +13,8 @@
         "content": ["1","2","3","4"]
       },
       {
-        "type": "double.html",
-        "content": ["1","2"]
-      },
-      {
         "type": "contributors.html",
         "content": ["1"]
-      },
+      }
     ]
 }
