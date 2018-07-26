@@ -6,18 +6,18 @@ layout: default
     <link rel="stylesheet" type="text/css" href="/main.css">
 
     <script src="/js/article.js"></script>
-
+                {% for post in site.posts %}
+                    {% if post.aID == '9999' and post.contributorId == page.contributorId %}
+                        {% assign link = post.link %}
+                    {% endif %}
+                {% endfor %}
         <div style="width:200px; height: 1032px; float:left;"id="leftbar">
             <div style="width:100%; height: 170px; float:left; margin-bottom: 50px;">
                 <div style=" background:  center center no-repeat; height: 60%; width:60%; margin-left: 20%; margin-top: 20%;clip-path: circle(40%);">
                 </div>
                 <img src="{{site.data.contributors.contributors[page.contributorId].image}}" height ="100px" width = "100px" style="margin-left: 50px;margin-top: -50px;border-radius: 50%;">
                 <div style="font-size: 13px; color: #58595B;float:left; width:60%; margin-left: 20%; text-align: center; ">Written By: </div>
-                {% for post in site.posts %}
-                    {% if post.aID == '9999' and post.contributorId == page.contributorId %}
-                        {% assign link = post.link %}
-                    {% endif %}
-                {% endfor %}
+
                 <a class="mainNav" style="font-weight:normal;"href="{{link}}">
                     <div style="font-size: 24px; color: #231f20;float:left; width:80%; margin-left: 10%; text-align: center; line-height:160%;">{{page.author}}</div>
                 </a>
