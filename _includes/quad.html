@@ -22,7 +22,9 @@
                         </div>
                     </div>
                 </div>
-                <div id="verticalspacer"></div>
+                {% if i == 0 or i == 1 or i == 2 %}
+                    <div id="verticalspacer"></div>
+                {% endif %}
             {% endfor %}
 
         </div>
