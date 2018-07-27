@@ -31,6 +31,7 @@ However, propaganda has also been used in children’s shows and pop culture to 
 
 “What am I referring to?” you may be wondering. Well, I am referring to the unnumbered amount of pre-9/11 photos in existence and would like to raise the question as to whether they influenced the attackers or normalized the idea of a plane striking a building
 
+<br><br><br><br><br><br><br><br><br><br>
 <img style="max-height:700px; max-width:700px; word-wrap: break-word" src="https://scontent.fewr1-2.fna.fbcdn.net/v/t1.0-9/35297204_1806458456064639_5842825259815796736_o.jpg?_nc_cat=0&oh=12c0932caccb5f27868f8dd5f2862c9e&oe=5BD0FB6F"> 
 This image was released on April 27, 2001, barely 5 months before the terrorist attack. The image of a burning building parallels the fall of the Twin Towers – this cartoon may have inspired the attack and its supporters. 
 
