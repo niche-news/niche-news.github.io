@@ -15,6 +15,7 @@ aID: '4'
 link: 'https://niche-news.github.io/article/how-much-power-really-lies-with-the-president.html'
 author: 'Vikram Mahendru'
 ---
+<img src="https://scontent.fewr1-2.fna.fbcdn.net/v/t1.0-9/34720353_1797119890331829_3540990726399590400_o.jpg?_nc_cat=0&oh=47f1d0e58c7e1668753b63ced4dde95f&oe=5BDB7BD8" alt="drawing" width="685px"/>
 
 <b>Disclaimer: This article mentions the 9/11 attacks and discusses military conflicts</b>
 

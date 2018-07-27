@@ -15,6 +15,7 @@ aID: '2'
 link: 'https://niche-news.github.io/article/the-problem-with-plea-bargaining.html'
 author: 'Kevin Wang'
 ---
+<img src="https://scontent.fewr1-2.fna.fbcdn.net/v/t1.0-9/34536444_1794227783954373_6236232281170640896_o.png?_nc_cat=0&oh=b25fd7c24c251d4027d58520087dcc62&oe=5C08C37A" alt="drawing" width="685px"/>
 
 Plea bargains are, paradoxically, one of the most prominent yet subtle components of the legal system. They influence a solid 90% of cases that pass through the criminal justice system, yet by nature, we hear little about them. Regardless, they have come to play a pivotal role in the trial process, for better or for worse.
 

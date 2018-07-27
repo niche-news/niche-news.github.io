@@ -15,6 +15,9 @@ aID: '8'
 link: 'https://niche-news.github.io/article/anthony-kennedy-to-retire.html'
 author: 'Jen Murphy'
 ---
+<img src="https://scontent.fewr1-2.fna.fbcdn.net/v/t1.0-9/36645998_1836345109742640_6767766945413464064_o.jpg?_nc_cat=0&oh=77419756ffc7470ef670de5b002c12a8&oe=5BD1915A" alt="drawing" width="685px"/>
+
+
 Anthony Kennedy, who was appointed as Justice of the Supreme Court by President Ronald Reagan, has been working on the Court for thirty years. A week ago, Kennedy has announced that he will be retiring at the end of July. 
 
 Kennedy was known as the ‘swing vote’ of the Supreme Court, who often bridged the gap between the court’s liberals and conservatives. As swing vote, Kennedy was able to look at both sides and come up with a reasonable agreement. Kennedy has changed America through many vital decisions such as the right to abortion, banning the death penalty for juveniles, and legalizing gay marriage. 

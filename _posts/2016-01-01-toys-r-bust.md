@@ -15,6 +15,10 @@ aID: '6'
 link: 'https://niche-news.github.io/article/toys-r-bust.html'
 author: 'Jen Murphy'
 ---
+
+
+<img src="https://scontent.fewr1-2.fna.fbcdn.net/v/t1.0-9/35279875_1806484149395403_4802119430903431168_o.jpg?_nc_cat=0&oh=3829093e7ab28584adb38642b8d42b56&oe=5BD99FA9" alt="drawing" width="685px"/>
+
 Whether it was your childhood or just one year ago, the retailer “Toys R Us” has been around since 1957, and continued to go strong until today. This store served as a paradise for many children, with all the supplies it sold ranging from toys of all sorts, video games, clothing, merchandise, and many more fun items. As a child, I always remember begging my parents to drive me over to check out what they had to offer. Walking in, the store always gave a vibrant, attractive color scheme to welcome all visitors. And once you enter, there are so many sections to visit you would not know where to start. A paradise full of toys… So what caused the downfall of this wonderful store?
 There were two factors:
 1. Online shopping websites such as Amazon and eBay easily outsell Toys R Us. The convenience of having the requested item delivered to your doorstep with a small shipping fee is much easier than driving out to a nearby Toys R Us, which were mostly located far away from local neighborhoods. Toys R Us stores are congregated near high traffic areas, such as highways, not the small neighborhoods where it really counts - and thats precisely what companies like Amazon took advantage of. 
