@@ -131,8 +131,8 @@ width: 180px; margin-left: 10px; height: 100px;" src="{{site.data.articles.artic
                 <div style="width:10px;height:10px; float:left;"></div>
             <div style="margin-top:20px; float:left;">
             {% for ree in site.data.articles.articles[page.aID].sources %}
-                        {{ree.title}} | {{ree.link}}
-                    <br>
+                    <p>{{ree.title}} | {{ree.link}}</p>
+                    
             {% endfor %}
             </div>
         </div>
