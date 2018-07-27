@@ -31,14 +31,23 @@ However, propaganda has also been used in children’s shows and pop culture to 
 
 “What am I referring to?” you may be wondering. Well, I am referring to the unnumbered amount of pre-9/11 photos in existence and would like to raise the question as to whether they influenced the attackers or normalized the idea of a plane striking a building
 
-<br><br><br><br><br><br><br><br><br><br>
+
 <img style="max-height:700px; max-width:700px; word-wrap: break-word" src="https://scontent.fewr1-2.fna.fbcdn.net/v/t1.0-9/35297204_1806458456064639_5842825259815796736_o.jpg?_nc_cat=0&oh=12c0932caccb5f27868f8dd5f2862c9e&oe=5BD0FB6F"> 
 This image was released on April 27, 2001, barely 5 months before the terrorist attack. The image of a burning building parallels the fall of the Twin Towers – this cartoon may have inspired the attack and its supporters. 
 
 <img style="max-height:400px; max-width:400px; word-wrap: break-word; padding-right: 10px; float:left;" src="https://scontent.fewr1-2.fna.fbcdn.net/v/t1.0-9/35362293_1806460902731061_85449869002539008_n.png?_nc_cat=0&oh=2880504e8b642b11c7e7ca71810a8d32&oe=5BD3C3DE">  Another example is from 1983, nearly 20 years before the attack. This image obtains a striking resemblance – almost exact resemblance – to the photos of 9/11. How is it that this author, Jose Borja, foresaw this event? Did he have a time machine? Not likely. Did corporal geniuses pay Borja to create it so that we would begin to think of the awful tragedy an entire two decades earlier? Perhaps. Did terrorists base their idea this story in their planning of the attack? Unknown. 
 
 
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <img style="max-height:400px; max-width:400px; word-wrap: break-word; padding-right: 10px; float:left;" src="https://scontent.fewr1-2.fna.fbcdn.net/v/t1.0-9/p720x720/35346497_1806462872730864_53031915413831680_n.png?_nc_cat=0&oh=68213efd262605292a28e7404a9333c5&oe=5BD72159">Another example, a Pakistan International Airline (PIA) advertisement from 1979. A horrifically looming image that suggests the intersection of a plane and two large towers over two full decades previous to the event. Same as before, should we take this as mere coincidence or is there something greater going on at hands? Whether that be a warning,<b><i> a normalization, or an inspiration to the final attack. </i></b>
 
