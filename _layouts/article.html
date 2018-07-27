@@ -126,13 +126,13 @@ width: 180px; margin-left: 10px; height: 100px;" src="{{site.data.articles.artic
             <div style="width:100%; height: 20px; text-align: center; font-size: 30px;font-family: Georgia, Times, 'Times New Roman', serif;">
                 Sources
             </div>
-            {% for ree in site.data.articles.articles[page.aID].sources %}
+        {% for ree in site.data.articles.articles[page.aID].sources %}
             <a class="mainNav" href="{{ree.link}}"> 
                 <p style="font-family: Georgia, Times, 'Times New Roman', serif; float:left;">
                     {{ree.title}}
                 </p>
              </a>
-            {% endfor %}
+        {% endfor %}
         </div>
         </div>
 
