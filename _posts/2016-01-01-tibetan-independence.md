@@ -12,7 +12,7 @@ thirdArticle: '8'
 fourthArticle: '1'
 fifthArticle: '2'
 aID: '7'
-link: 'https://niche-news.github.io/article/the-truth-on-electric-cars.html'
+link: 'https://niche-news.github.io/article/tibetan-independence.html'
 author: 'Charlie Davis'
 ---
 Tibet is a mountainous region of western China. According to China, the land has been Chinese since the 13th century. However, periodically during this period, Tibet has exercised independence from China. For example, between 1368 and 1644, and more recently between 1912 and 1951 China exercised no control over Tibet. According to The New York Times, “Tibet was not “Chinese” until Mao Zedong’s armies marched in and made it so” in 1951 (New York Times). The most recent Chinese occupation of Tibet, beginning in 1951, has been one characterized by oppression and human rights abuses. This oppression has mainly been focused on repressing the practice of Tibetan Buddhism and on maintaining an economic and political grip on Tibet. This Chinese control threatens to destroy Tibet economically and culturally (UMASS). In response to this oppression, a Tibetan independence movement has developed, with the split goal of Tibetan autonomy or independence (NYT, China Warns). However, the question of Tibetan control is problematic because Chinese occupation of Tibet instigates conflict with India, and has historically been the instigator of wars between China and India (DNA). This escalates the question of Tibetan independence from a local conflict to a matter of global security that threatens to instigate a much larger war. 

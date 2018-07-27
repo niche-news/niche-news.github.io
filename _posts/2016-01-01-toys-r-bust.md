@@ -12,7 +12,7 @@ thirdArticle: '4'
 fourthArticle: '8'
 fifthArticle: '3'
 aID: '6'
-link: 'https://niche-news.github.io/article/the-truth-on-electric-cars.html'
+link: 'https://niche-news.github.io/article/toys-r-bust.html'
 author: 'Jen Murphy'
 ---
 Whether it was your childhood or just one year ago, the retailer “Toys R Us” has been around since 1957, and continued to go strong until today. This store served as a paradise for many children, with all the supplies it sold ranging from toys of all sorts, video games, clothing, merchandise, and many more fun items. As a child, I always remember begging my parents to drive me over to check out what they had to offer. Walking in, the store always gave a vibrant, attractive color scheme to welcome all visitors. And once you enter, there are so many sections to visit you would not know where to start. A paradise full of toys… So what caused the downfall of this wonderful store?

@@ -12,7 +12,7 @@ thirdArticle: '7'
 fourthArticle: '8'
 fifthArticle: '6'
 aID: '2'
-link: 'https://niche-news.github.io/article/the-truth-on-electric-cars.html'
+link: 'https://niche-news.github.io/article/the-problem-with-plea-bargaining.html'
 author: 'Kevin Wang'
 ---
 Plea bargains are, paradoxically, one of the most prominent yet subtle components of the legal system. They influence a solid 90% of cases that pass through the criminal justice system, yet by nature, we hear little about them. Regardless, they have come to play a pivotal role in the trial process, for better or for worse.

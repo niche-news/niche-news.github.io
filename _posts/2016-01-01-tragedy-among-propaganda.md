@@ -12,7 +12,7 @@ thirdArticle: '2'
 fourthArticle: '3'
 fifthArticle: '6'
 aID: '5'
-link: 'https://niche-news.github.io/article/the-truth-on-electric-cars.html'
+link: 'https://niche-news.github.io/article/tragedy-among-propaganda.html'
 author: 'Gabbie Stoller'
 ---
 

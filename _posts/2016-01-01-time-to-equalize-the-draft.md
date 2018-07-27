@@ -12,7 +12,7 @@ thirdArticle: '6'
 fourthArticle: '4'
 fifthArticle: '5'
 aID: '3'
-link: 'https://niche-news.github.io/article/the-truth-on-electric-cars.html'
+link: 'https://niche-news.github.io/article/time-to-equalize-the-draft.html'
 author: 'Anusha Kejriwal'
 ---
 Two years ago, Congress entertained the idea to have women register for the possibility of a draft, the same way that every man from the ages of 18 to 26 has to register for the possibility of a draft. Two months later, Congress dropped the idea and indefinitely shelved any future plans to amend this decision. 
