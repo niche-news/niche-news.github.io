@@ -129,10 +129,8 @@ width: 180px; margin-left: 10px; height: 100px;" src="{{site.data.articles.artic
 
         {% for ree in site.data.articles.articles[page.aID].sources %}
             <a class="mainNav" href="{{ree.link}}"> 
-                <p style="font-family: Georgia, Times, 'Times New Roman', serif; float:left; font-size:10px;">
-                    {{ree.title}}
-                </p>
-             </a>
+                {{ree.title}}
+             </a><br>
         {% endfor %}
         </div>
         </div>
